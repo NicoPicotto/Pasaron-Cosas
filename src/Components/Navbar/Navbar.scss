@@ -1,0 +1,20 @@
+@import '../../Theme.scss';
+
+.container {
+	width: 100vw;
+	position: absolute;
+
+	.list-container {
+		display: flex;
+		justify-content: flex-end;
+		padding: 2em;
+		margin-right: 5em;
+
+		h3 {
+			color: $fondo;
+			margin-left: 7em;
+			margin-top: 0;
+			font-size: 1em;
+		}
+	}
+}

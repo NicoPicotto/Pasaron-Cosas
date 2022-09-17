@@ -1,0 +1,9 @@
+@import './Components/Navbar/Navbar.scss';
+@import './Components/Landing/Landing.scss';
+
+body {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	overflow-x: hidden;
+	background-color: $fondo;
+}

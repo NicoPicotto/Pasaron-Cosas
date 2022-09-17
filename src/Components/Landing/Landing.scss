@@ -1,0 +1,29 @@
+.container {
+	.video-container {
+
+		.video-landing {
+			position: fixed;
+			right: 0;
+            bottom: 50;
+			align-content: center;
+			min-width: 100%;
+			min-height: 100%;
+		}
+	}
+
+	.list-container {
+		display: flex;
+		padding: 2em;
+		margin-right: 3em;
+		position: fixed;
+		top: 0;
+		right: 0;
+
+		h3 {
+			color: $fondo;
+			margin-left: 4em;
+			margin-top: 0;
+			font-size: 1em;
+		}
+	}
+}
