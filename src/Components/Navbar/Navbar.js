@@ -2,13 +2,13 @@ import React from 'react';
 
 const Navbar = () => {
 	return (
-		<div className='container'>
-            <div className='list-container'>
-                <h3>Productos</h3>
-                <h3>Nosotros</h3>
-                <h3>Dónde comprar</h3>
-                <h3>Contacto</h3>
-            </div>
+		<div className='nav-container'>
+			<div className='list-container'>
+				<h3>PRODUCTOS</h3>
+				<h3>NOSOTROS</h3>
+				<h3>DÓNDE COMPRAR</h3>
+				<h3>CONTACTO</h3>
+			</div>
 		</div>
 	);
 };

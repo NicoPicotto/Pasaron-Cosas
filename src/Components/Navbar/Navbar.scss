@@ -1,19 +1,19 @@
 @import '../../Theme.scss';
 
-.container {
+.nav-container {
+	display: flex;
 	width: 100vw;
-	position: absolute;
+	height: 7vh;
+	align-items: center;
+	justify-content: center;
 
 	.list-container {
+		width: 50%;
 		display: flex;
-		justify-content: flex-end;
-		padding: 2em;
-		margin-right: 5em;
+		justify-content: space-around;
 
 		h3 {
-			color: $fondo;
-			margin-left: 7em;
-			margin-top: 0;
+			color: $primario;
 			font-size: 1em;
 		}
 	}

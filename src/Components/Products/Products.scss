@@ -1,0 +1,15 @@
+.products-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+    margin-bottom: 2em;
+
+	.products-card {
+        display: flex;
+		width: 40vw;
+		height: 80vh;
+        margin-top: -5em;
+        background-color: white;
+        box-shadow: 0 0 5px rgba(128, 128, 128, 0.356);
+	}
+}
